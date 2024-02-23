@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'raleway', sans-serif;
+    overflow: none;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    max-height: 120px;
+}
+
+header .topo{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.topo img{
+    width: 30%;
+}
+
+.topo nav{
+    float: right;
+    margin:2% 0;
+}
+
+.topo nav a{
+    padding-left:10px;
+    text-decoration: none;
+    color: hsl(243, 87%, 12%);
+    font-weight: 400;
+}
+
+/* estilização do header do site */
+
+.container-1,.container-2, .container-3{
+    width: 90%;
+    margin:5% auto;
+    text-align: center;
+    line-height: 27px;
+    color:hsl(243, 87%, 12%) ;
+}
+
+.container-1 .imgpersons,.container-2 .imgpersons{
+    width:90%;
+    margin: 10% 0;
+}
+
+.container-1 h2{
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.container-1 p{
+    margin:8% 0;
+    font-size: 18px;
+}
+
+.container-1 input{
+    width: 90%;
+    height: 40px;
+    font-family: raleway;
+    outline: 0;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    text-shadow: 0;
+}
+
+.container-1 input[type=email]{
+    padding-left: 15px;
+    color: rgb(150, 150, 150);
+    border: 2px solid gray;
+    font-weight: 700;
+}
+
+.container-1 input[type=submit]{
+    background-color:#2e65f9;
+    outline: 0;
+    border: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+.img-desktop img{ /* imagem para a versão de telas maiores */
+    display: none;
+}
+
+/* container-1 acima */
+
+.curve{
+    width: 100%;
+    position: relative;
+    top: 6vw;
+    z-index: -1;
+}
+
+.curve2{
+    display: none;
+}
+
+.back{
+    width: 100vw;
+    margin: auto;
+    background-color: #f8f8ff;
+    padding-bottom: 50px;
+}
+
+.container-2{
+    width: 90%;
+    text-align: center;
+    margin: 5% auto;
+}
+
+.container-2 h2{
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.container-2 p{
+    margin:8% 0;
+    font-size: 18px;
+}
+
+p a{
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+}
+
+p a .link-image{
+    width: 25px;
+    margin:-5px 2px
+}
+
+.citation{
+    width: 90%;
+    max-height: 290px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: left;
+    padding: 3% 4% 0 4%;
+    font-weight: 500;
+    position: relative;
+}
+
+.citation img{
+    margin: 0 0 -8% 0;
+}
+
+.citation .person{
+    border-radius: 50%;
+    width: 8vw;
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 1.2vw;
+}
+
+.citation p{
+    font-size: 14px;
+}
+
+.text-person{
+    width: 83%;
+    position: absolute;
+    right: 1%;
+    bottom: 3.2vw;
+    font-size: 0.7em;
+    font-weight: 400;
+    display:block;
+}  
+
+.text-person p{
+    font-size: 0.7em;
+    margin: -10px 0
+}
+
+.text-person span{
+    font-weight: 700;
+    width: 100%;
+}
+
+.img-desktop2{/* imagem para a versão de telas maiores */
+    display: none;
+}
+
+/* Container-2 acima */
+
+.container-3{
+    background-color:hsl(238, 22%, 44%);
+    width: 100vw;
+    max-height: 500px;
+    padding: 10%;
+    color: white;
+    margin-top: -51px;
+}
+
+.container-3 h3{
+    font-size: 23px;
+    margin-bottom: 5%;
+}
+
+.container-3 p{
+    margin-bottom: 5%;
+}
+
+.container-3 input{
+    width: 80%;
+    height: 35px;
+    border-radius: 3px;
+    text-shadow: none;
+    border: transparent;
+    padding-left: 10px;
+    font-family: 'raleway', sans-serif;
+    outline: 0;
+}
+
+.container-3 input:last-of-type{
+    margin-top: 3%;
+    background-color: #2e65f9;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+/* container-3 acima */
+
+.footer{
+    min-width: 100%;
+    max-width: 500px;
+    background-color:hsl(240, 33%, 33%);
+    margin: -5vw 0;
+    padding: 50px 40px;
+    color: white;
+    line-height: 40px;
+}
+
+.footer-logo{
+    width: 40vw;
+    margin-bottom: 30px;
+}
+
+.footer ul{
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li img{
+    margin-right: 15px;
+}
+
+.icons{
+    font-size: 19px;
+    margin: auto;
+    text-align: center;
+}
+
+.icons a{
+    color: white;
+    margin: 0 5px;
+}
+
+.icons i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding:10px;
+}

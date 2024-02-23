@@ -1,0 +1,159 @@
+
+@media screen and (min-width:992px) {
+    header{
+        max-height: 100px;
+    }
+
+    .topo img{
+        width: 15%;
+    }
+    .img-desktop{
+        width: 31%;
+        height: 80%;
+        display: inline-block;
+        position: relative;
+        left: 5%;
+    }
+    .img-desktop img{
+        width: 140%;
+        display: inline-block;
+    }
+    .container-1, .container-3{
+        width: 46%;
+        text-align: left;
+        display: inline-block;
+        padding:0 0 0 5%;
+    }
+    .container-1 img{
+        display: none;
+    }
+    .container-1 h2, .container-2 h2{
+        font-size: 41px;
+        line-height: 56px;
+    }
+    .container-1 p, .container-2 p{
+        font-size: 20px;
+        margin: 4% 0;
+    }
+    .container-1 input[type=email]{
+        width: 55%;
+        margin-right:20px;
+    }
+    .container-1 input[type=submit]{
+        width: 30%;
+    }
+
+    /* container-1 acima */
+
+    .back{
+        position: relative;
+    }
+    .img-desktop2{
+        display: inline-block;
+        width: 25%;
+        position: absolute;
+        top: 20%;
+        right: 20%;
+    }
+    .img-desktop2 img{
+        width: 160%;
+    }
+    .imgpersons{
+        display: none;
+    }
+    .container-2{
+        width: 50%;
+        text-align: left;
+        margin:5% 5%;
+        display: inline-block;
+        position: relative;
+    }
+    .container-2 .text-d{
+        width: 80%;
+    }
+    .curve{
+        display: none;
+    }
+    .curve2{
+        width: 100vw;
+        display: block;
+        position: relative;
+        z-index: -1;
+    }
+    .citation{
+        width: 70%;
+        margin: 50px 0;
+    }
+    .citation img{
+        margin: 0 0 -2% 0;
+    }
+    .citation .person{
+        width:3.5vw;
+        margin-bottom: 3px;
+    }
+    .text-person{
+        width: 82%;
+        bottom: 6%;
+    }  
+    .text-person p{
+        font-size: 12px;
+        margin: -10px 0
+    }
+
+    /* container-2 acima */
+
+    .container-3{
+        width: 100vw;
+        margin: 1px 0;
+    }
+    .container-3 h3{
+        font-size: 30px;
+        display: inline-block;
+    }
+    .text-3{
+        margin: 8% 0%;
+        width: 40%;
+        display: inline-block;
+    }
+    .form-3{
+        float:right;
+        margin:150px 0;
+        width: 40%;
+    }
+    .form-3 input[type=submit]{
+        width: 40%;
+    }   
+
+    /* container-3 acima */
+    .footer-logo{
+        width: 18vw;
+        margin: 5vw 0 0 0;
+    }
+    .footer  ul{
+        display: inline-block;
+        padding: 0 10vw;
+        margin:0 2vw;
+        vertical-align: top;
+        padding-left: 0;
+    }
+    .icons{
+        display: inline-block;
+        vertical-align:top ;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width:992px){
+    
+    .citation .person{
+        width: 5vw;
+        margin-bottom: 1vw;
+    }
+    .text-person{
+        width: 87%;
+        font-size: 0.9em;
+    }  
+    .footer-logo{
+        width: 20vw;
+    }
+}
+
